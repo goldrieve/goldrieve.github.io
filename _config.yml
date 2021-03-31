@@ -14,8 +14,8 @@ author: Guy Oldrieve
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Mee: "aboutme"
-  Blog: "_posts"
+  About Me: "aboutme"
+  Blog: "posts"
   Lab website: "https://matthews.bio.ed.ac.uk"
 
 # --- Logo --- #
