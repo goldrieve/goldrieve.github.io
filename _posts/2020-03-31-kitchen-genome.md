@@ -3,9 +3,9 @@ layout: post
 title: Sour dough, homebrewing and portable genome sequencing
 subtitle: Whilst some turned to baking and homebrewing, which I have to admit I also turned to, I turned to another single celled Eukaryote to keep me entertained.
 gh-repo: daattali/goldrieve
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/F575BFBC-B31D-439B-9303-558D8BCBDA70.MP4
+thumbnail-img: /assets/img/F575BFBC-B31D-439B-9303-558D8BCBDA70.MP4
+share-img: /assets/img/F575BFBC-B31D-439B-9303-558D8BCBDA70.MP4
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
