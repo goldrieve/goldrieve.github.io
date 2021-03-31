@@ -18,9 +18,11 @@ The HPGH programme is interdiciplinary at heart and as such, the porgramme has s
 
 ## Managment/ leadership
 
+Current senior captain of Lismore RFC, Edinburgh. 
+
 ## Other interests
 
-Anything outdoors. Especially if it's a ridiculous challenge in the name of charity
+Anything outdoors. Especially if it's a ridiculous challenge in the name of charity:
 
-* [Three peaks](https://www.justgiving.com/fundraising/guy-oldrieve)
+* [Parkinson's UK](https://www.justgiving.com/fundraising/guy-oldrieve)
 * [MIND](https://www.justgiving.com/fundraising/ogahb)
