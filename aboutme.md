@@ -22,5 +22,5 @@ The HPGH programme is interdiciplinary at heart and as such, the porgramme has s
 
 Anything outdoors. Especially if it's a ridiculous challenge in the name of charity
 
-$ [Three peaks](https://www.justgiving.com/fundraising/guy-oldrieve)
-$ [MIND](https://www.justgiving.com/fundraising/ogahb)
+* [Three peaks](https://www.justgiving.com/fundraising/guy-oldrieve)
+* [MIND](https://www.justgiving.com/fundraising/ogahb)
