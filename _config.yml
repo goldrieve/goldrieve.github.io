@@ -6,15 +6,15 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Guy Oldrieve
 
 # Your name to show in the footer
-author: Some Person
+author: Guy Oldrieve
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "Parasitologist with an interest in informatics"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -39,11 +39,10 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "guy.oldrieve@ed.ac.uk"
   facebook: deanattali
   github: daattali
   twitter: daattali
-  patreon: DeanAttali
   youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
