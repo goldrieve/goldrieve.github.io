@@ -8,6 +8,4 @@ share-img: /assets/img/path.jpg
 tags: [books, test]
 ---
 
-text here
-
-more here
+Working things out
