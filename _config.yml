@@ -91,9 +91,9 @@ feed_show_tags: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-#navbar-col: "#EAEAEA"
+navbar-col: "#EAEAEA"
 navbar-text-col: "#FFFFFF"
-#navbar-border-col: "#DDDDDD"
+navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
@@ -105,8 +105,8 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-navbar-img: "/assets/img/tryps.png"
-footer-img: "/assets/img/tryps.img"
+#navbar-img: "/assets/img/tryps.png"
+#footer-img: "/assets/img/tryps.img"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
