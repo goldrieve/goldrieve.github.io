@@ -17,15 +17,15 @@ As with many folk during the long dark winter months, I needed something to keep
 In the Matthew's lab, we work on a broad diversity of the ancient protozoan genus, _Trypanosoma_. _T. melophagium_ is a fascinating example of a _Trypanosoma_ which in contrast to the more infamous species, is non-pathogenic. _T. melophagium_ can be found in temperate regions where pesticide has not be widely used, such as the barren and desolate isles of St. Kilda, off of the Scottish coast. _T. melophagium_ is transmitted from host to host (_Ovinus_) via the sheep ked. It is supposedly closely rleated to another _Trypanosoma_, _T. theileri_ which can be found in similar climates but is transmitted between bovids via tabanids.  
 Interest has grown around these trypanosomes as researchers in the Matthews's lab, and futher afield, have begun a study using _T. melophagium_ or _T. theileri_ as a [vaccine vechicle](https://roslintech.com/roslin-technologies-building-breakthrough-vaccine-vehicle-for-sheep-and-goats-using-trypanosomes/).
 
-How about a yummy crepe?
+How about a yummy sequencer?
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+![Sequencer](/assets/img/IMG_3396.png)
 
 It can also be centered!
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
+![Crepe](/assets/img/IMG_3396.pngg){: .mx-auto.d-block :}
 
-Here's a code chunk:
+And some demo code:
 
 ~~~
 var foo = function(x) {
