@@ -21,9 +21,6 @@ How about a yummy sequencer?
 
 ![Sequencer](/assets/img/IMG_3396.png)
 
-It can also be centered!
-
-![Crepe](/assets/img/IMG_3396.pngg){: .mx-auto.d-block :}
 
 And some demo code:
 
