@@ -4,7 +4,7 @@ title: The curious case of T. melophagium in my kitchen
 subtitle: Whilst many turned to baking and homebrewing, I turned to another single celled Eukaryote to keep me entertained.
 gh-repo: goldrieve
 cover-img: /assets/img/Montage of Stack.jpg
-thumbnail-img: /assets/img/IMG_3396.png
+thumbnail-img: /assets/img/run.png
 share-img: /assets/img/IMG_3396.png
 gh-badge: [star, follow]
 tags: [genome sequencing]
