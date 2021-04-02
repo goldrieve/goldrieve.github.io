@@ -3,7 +3,7 @@ layout: post
 title: The curious case of _T. melophagium_ in my kitchen
 subtitle: Whilst many turned to baking and homebrewing, I turned to another single celled Eukaryote to keep me entertained.
 gh-repo: goldrieve
-cover-img: /assets/img/IMG_3396.png
+cover-img: /assets/img/Stack.jpg
 thumbnail-img: /assets/img/IMG_3396.png
 share-img: /assets/img/IMG_3396.png
 gh-badge: [star, follow]
