@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Blog posts
 subtitle: A snapshot of my progress during my PhD
 ---
