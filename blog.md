@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Blogs
-subtitle: A snapshot of my progress during my PhD
+title: Blog
+subtitle: I'll aim to upload little descriptions of interesting projects as I work my way through this PhD!
 ---
