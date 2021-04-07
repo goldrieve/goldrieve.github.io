@@ -11,14 +11,18 @@ I study the infamous _T. brucei_, the causative agent of African sleeping sickne
 The HPGH programme is interdiciplinary at heart and as such, the programme has set me up for a PhD at the interface between informatics, molecular biology, and parasitology.
 
 ### Education
+* Currently undertaking a PhD in Hosts, Pathogens and Global Health.
 * Masters by Research in Hosts, Pathogens and Global Health (2018)
   * Pass with Merit.
 * Integrated Masters in Biological Sciences with a Professional Training Year (MBiol)
   * First class honours.
-  * Integrated Masters Prize, 2017: Award for the best Integrated Masters Performance.
   * Masters project: Avirulence, feminisation and the role of horizontal gene transfer in coinfecting microsporidian and paramyxid parasites of amphipod crustaceans.
 
-### Experience
+### Awards
+  * Edinburgh Infectious Diseases 9th Annual Symposium PhD student poster prize [winner](https://www.ed.ac.uk/edinburgh-infectious-diseases/news/events-archive/9th-annual-edinburgh-infectious-diseases-symposium) 🥳
+  * Integrated Masters Prize, 2017: Award for the best Integrated Masters Performance.
+  
+### Projects
 * The University of Edinburgh - HPGH rotation project (2018-2019)
   * An evolve and resequence approach to characterise regulators of trypanosome development - [Matthews Lab](https://matthews.bio.ed.ac.uk).
   * Wolbachia interactions with Filarial Nematodes (Comparative genomics) - [Blaxter lab](http://www.nematodes.org/lab/).
@@ -42,13 +46,19 @@ The HPGH programme is interdiciplinary at heart and as such, the programme has s
 * Python (Learning!)
 
 ### Wet lab
+* Genome sequencing ([minION](https://goldrieve.github.io/2020-03-31-kitchen-genome/)).
+* Genetic manipulations (e.g. CRISPR, RNAi and overexpression). 
+* Cell culture.
+* Immunoflourescence.
+* _In vivo_ animal licence.
+* Basic wet lab e.g. PCR, DNA extraction etc etc.
 
-### Managment/ leadership
-* Supervised an Honours student project (The genomic basis of host/vector specificity in _T.melophagium_).
-* Current senior captain of Lismore RFC, Edinburgh. 
+### Supervison/ leadership
+* Honours student (2020-2021): The genomic basis of host/vector specificity in _T.melophagium_.
 * Demonstrator at Cardiff University. 
 
 ### Other interests
-Anything outdoors. Especially if it's a ridiculous challenge in the name of charity (I'm currently training for a marathon!):
-* [Parkinson's UK](https://www.justgiving.com/fundraising/guy-oldrieve)
-* [MIND](https://www.justgiving.com/fundraising/ogahb)
+* Current senior captain of Lismore RFC.
+* Anything outdoors. Especially if it's a challenge in the name of charity (I'm currently training for a marathon!):
+ * [Parkinson's UK.](https://www.justgiving.com/fundraising/guy-oldrieve)
+ * [MIND.](https://www.justgiving.com/fundraising/ogahb)
