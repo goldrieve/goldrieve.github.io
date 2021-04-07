@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About me
-subtitle: Parasitologist who dables in informatics
+subtitle: Parasitologist dabling in informatics
+cover-img: /assets/img/edi.jpg
 ---
 
 I'm a PhD researcher in the Matthews lab. I started the [Hosts, Pathogens and Global Health (HPGH)](https://www.ed.ac.uk/edinburgh-infectious-diseases/teaching/phd-programmes/hosts-pathogens-global-health) PhD programme in 2018. After a year of roatation projects in three labs in Edinburgh, I settled in the Institute of Infection and Immununology. 
