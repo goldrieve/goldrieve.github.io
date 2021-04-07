@@ -47,4 +47,6 @@ With a decent draft _T. melophagium_ genome to add to the ~40 [TriTrypdDB](https
 
 Where has that 5.4Mb come from!! Some tantalisingly low hanging fruit jumped out, such as the absence of a surface protein family in _T. melophagium_ and hugely expanded surface protein families in _T. theileri_.  
 
+![OG](/assets/img/OG.png)
+
 And that’s all the progress so far, stay tuned!
