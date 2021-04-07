@@ -39,7 +39,7 @@ The HPGH programme is interdiciplinary at heart and has set me up for a PhD at t
 * Zoological Society London, volunteer (October 2014)
   * Badger-cattle contact and vaccination project
 
-##Skills
+## Skills
 
 ### Informatics
 * Unix/Bash
