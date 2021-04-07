@@ -30,12 +30,12 @@ The HPGH programme is interdiciplinary at heart and as such, the programme has s
 * Cardiff University, 3rd year research project (January - April 2017)
   * Independent research project: “Alternative splicing of mybpc1 in developing Xenopus laevis and its implications for myotonic dystrophy”.
 * Fondazione Edmund Mach, professional training year (September 2015 - August 2016)
-  *I ndependent research project: “Impacts of Antibiotic Treatment upon Helminths in Wild Rodents”.
+  * Independent research project: “Impacts of Antibiotic Treatment upon Helminths in Wild Rodents”.
 * Zoological Society London, volunteer (October 2014)
   * Badger-cattle contact and vaccination project.
 
 ### Informatics
-*U nix/Bash
+* Unix/Bash
 * Git
 * R
 * Markdown
