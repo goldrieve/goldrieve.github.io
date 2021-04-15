@@ -42,7 +42,7 @@ The HPGH programme is interdiciplinary at heart and has set me up for a PhD at t
 ## Skills
 
 ### Informatics
-* Managment of the labs HPC (package managment and training new starts) 
+* Managment of the lab HPC space (package managment and training new starts) 
 * Unix/Bash
 * Git
 * R
