@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Molecular parasitologist with a passion for bioinformatics
+subtitle: Molecular parasitologist/ bioinformatician
 cover-img: /assets/img/IMG_3974.png
 ---
 
