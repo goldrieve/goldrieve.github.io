@@ -43,11 +43,12 @@ The HPGH programme is interdiciplinary at heart and has set me up for a PhD at t
 
 ### Informatics
 * Managment of the lab HPC space (package managment and training new starts) 
-* Unix/Bash
+* Bash
 * Git
 * R
 * Markdown
 * Python (Learning!)
+* Machine learning (python based)
 
 ### Wet lab
 * Genome sequencing ([minION](https://goldrieve.github.io/2020-03-31-kitchen-genome/))
@@ -63,6 +64,6 @@ The HPGH programme is interdiciplinary at heart and has set me up for a PhD at t
 
 ## Other interests
 * Current senior captain of Lismore RFC
-* Anything outdoors. Especially if it's a challenge in the name of charity (I'm currently training for a marathon!):
+* Anything outdoors (I'm currently training for a marathon!):
   * [Parkinson's UK](https://www.justgiving.com/fundraising/guy-oldrieve)
   * [MIND](https://www.justgiving.com/fundraising/ogahb)
