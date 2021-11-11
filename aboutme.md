@@ -16,12 +16,12 @@ The HPGH programme is interdiciplinary at heart and has set me up for a PhD at t
 * [Monomorphic Trypanozoon: towards reconciling phylogeny and pathologies. Oldrieve _et al_. 2021](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000632)
 
 ## Presentations
-* 2018-2021: Attended IIIR and IEB seminar series, Ashworth Laboratories, Edinburgh, UK.
-* October 2020: Presented at AIIM, Ashworth Laboratories, Edinburgh, UK.
+* October 2020: Presented at Ashworth Immunology and Infection Meeting (AIIM). 
 * November 2020: Poster at the Edinburgh Infectious Diseases (EID) meeting (poster prize winner).
-* June 2021: Poster at the SBS 2nd year poster day. 
+* June 2021: Poster at the School of Biological Sciences poster day.
 * July 2021: Presented at ION_BRU (Scottish Oxford Nanopore user group). 
-* October 2021: Presented at EID Early Career Researcher Symposium 
+* October 2021: Presented at EID Early Career Researcher Symposium. 
+* November 2021: Presented at AIIM.
 
 
 ## Education
