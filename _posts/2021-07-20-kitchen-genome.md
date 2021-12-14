@@ -4,8 +4,8 @@ title: ION_BRU talk - The genomic basis of host/ vector specificity
 subtitle: ION_BRU
 gh-repo: goldrieve
 cover-img: /assets/img/Fig.3.svg
-thumbnail-img: /assets/img/Fig.4.svg
-share-img: /assets/img/Fig.3.svg
+thumbnail-img: /assets/img/S2(b).png
+share-img: /assets/img/S2(b).png.svg
 gh-badge: [star, follow]
 tags: [genome sequencing]
 comments: true
