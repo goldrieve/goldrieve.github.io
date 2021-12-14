@@ -1,11 +1,11 @@
 ---
 layout: post
-title: The genomic basis of host/ vector specificity - ionBRU talk
-subtitle: ionBRU
+title: ION_BRU talk - The genomic basis of host/ vector specificity
+subtitle: ION_BRU
 gh-repo: goldrieve
-cover-img: /assets/img/Montage of Stack.jpg
-thumbnail-img: /assets/img/run.png
-share-img: /assets/img/IMG_3396.png
+cover-img: /assets/img/Fig.3.svg
+thumbnail-img: /assets/img/Fig.4.svg
+share-img: /assets/img/Fig.3.svg
 gh-badge: [star, follow]
 tags: [genome sequencing]
 comments: true
