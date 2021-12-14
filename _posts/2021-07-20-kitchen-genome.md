@@ -3,9 +3,9 @@ layout: post
 title: ION_BRU talk - The genomic basis of host/ vector specificity
 subtitle: ION_BRU
 gh-repo: goldrieve
-cover-img: /assets/img/Fig.3.svg
-thumbnail-img: /assets/img/S2(b).png
-share-img: /assets/img/S2(b).png.svg
+cover-img: /assets/img/S2(b).png
+thumbnail-img: /assets/img/Fig.3.svg
+share-img: /assets/img/S2(b).png
 gh-badge: [star, follow]
 tags: [genome sequencing]
 comments: true
@@ -13,4 +13,4 @@ comments: true
 
 ## The genomic basis of host/ vector specificity - ionBRU talk
 
-Check out my [talk](https://www.dropbox.com/s/18aknsnubf061zk/9.%20Guy%20Oldrieve-%20host%20%26%20vector%20specificity%20in%20trypanosomatids.mp4?dl=0) on _T. melophagium_ for [ION_BRU](https://twitter.com/ion_bru) (the Scottish nanopore user group). The work was very rough and ready at that stage so I am excited to share mroe recent updates soon.
+Check out my [talk](https://www.dropbox.com/s/18aknsnubf061zk/9.%20Guy%20Oldrieve-%20host%20%26%20vector%20specificity%20in%20trypanosomatids.mp4?dl=0) on _T. melophagium_ for [ION_BRU](https://twitter.com/ion_bru) (the Scottish nanopore user group). The work was very rough and ready at this stage so I am excited to share more recent updates soon.
