@@ -1,6 +1,8 @@
 ---
 layout: cv
-title: Guy Oldrieve's CV
+title: About me
+subtitle: Molecular parasitologist/ bioinformatician
+cover-img: /assets/img/IMG_3974.png
 ---
 # Guy Oldrieve
 Molecular parasitologist, Bioinformatician, PhD candidate
