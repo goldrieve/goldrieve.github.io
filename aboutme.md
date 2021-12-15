@@ -56,7 +56,7 @@ The HPGH programme is interdiciplinary at heart and has set me up for a PhD at t
 
 ### Informatics
 * Managment of the lab HPC space (package managment and training new starts) 
-* Command line (*nix)
+* Command line (nix)
 * Data processing, managment and visualisation
 * Git
 * R
