@@ -14,6 +14,7 @@ The HPGH programme is interdiciplinary at heart and has set me up for a PhD at t
 ## Publications
 
 * [Monomorphic Trypanozoon: towards reconciling phylogeny and pathologies. Oldrieve _et al_. 2021](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000632)
+* [The genomic basis of host and vector specificity in non-pathogenic trypanosomatids. oldrieve _et al_. 2022 - preprint]
 
 ## Presentations
 * October 2020: Presented at Ashworth Immunology and Infection Meeting (AIIM)
