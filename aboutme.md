@@ -13,17 +13,17 @@ The HPGH programme is interdiciplinary at heart and has set me up for a PhD at t
 
 ## Publications
 
-* [The genomic basis of host and vector specificity in non-pathogenic trypanosomatids. Oldrieve _et al_. 2022 - preprint](https://www.biorxiv.org/content/10.1101/2022.01.05.475049v1)
+* [The genomic basis of host and vector specificity in non-pathogenic trypanosomatids. Oldrieve _et al_. 2022](https://journals.biologists.com/bio/article/doi/10.1242/bio.059237/274958)
 * [Monomorphic Trypanozoon: towards reconciling phylogeny and pathologies. Oldrieve _et al_. 2021](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000632)
 
 ## Presentations
-* October 2020: Presented at Ashworth Immunology and Infection Meeting (AIIM)
-* November 2020: Poster at the Edinburgh Infectious Diseases (EID) meeting (poster prize winner)
-* June 2021: Poster at the School of Biological Sciences poster day
-* July 2021: Presented at ION_BRU (Scottish Oxford Nanopore user group)
-* October 2021: Presented at EID Early Career Researcher Symposium
+* March 2022: Presented at British Society for Parasitology Spring Meeting (York)
 * November 2021: Presented at AIIM
-
+* October 2021: Presented at EID Early Career Researcher Symposium
+* July 2021: Presented at ION_BRU (Scottish Oxford Nanopore user group)
+* June 2021: Poster at the School of Biological Sciences poster day
+* November 2020: Poster at the Edinburgh Infectious Diseases (EID) meeting (poster prize winner)
+* October 2020: Presented at Ashworth Immunology and Infection Meeting (AIIM)
 
 ## Education
 * PhD in Hosts, Pathogens and Global Health (2019-2022)
