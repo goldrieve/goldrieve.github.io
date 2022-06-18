@@ -17,7 +17,6 @@ author: Guy Oldrieve
 
 navbar-links:
   About Me: "aboutme"
-  cv2: "https://goldrieve.github.io/cv2"
   cv: "https://goldrieve.github.io/markdown-cv/"
   Blog: "blog"
   Lab website: "https://matthews.bio.ed.ac.uk"
