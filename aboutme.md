@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Bioinformatics | Parasitology | Molecular Biology
+subtitle:
 cover-img: /assets/img/tryps.png
 ---
 
