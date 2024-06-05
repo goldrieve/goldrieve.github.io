@@ -5,7 +5,7 @@ subtitle: Bioinformatics | Parasitology | Molecular Biology
 cover-img: /assets/img/tryps.png
 ---
 
-I'm a postdoctoral researcher in the Matthews lab, in Edinburgh. I use bioinformatics and molecular techniques to understand the evolution and developmental biology of trypanosomes, mainly _Trypanosoma brucei_.
+I'm a postdoctoral researcher in the Matthews lab, in Edinburgh. I use bioinformatics and molecular techniques to understand the evolution and developmental biology of trypanosomes, mainly _Trypanosoma brucei_. My work can be split into three projects.
 
 __Mechanisms of life cycle simplification__
 
