@@ -2,7 +2,7 @@
 layout: page
 title: About me
 subtitle: Bioinformatics | Parasitology | Molecular Biology
-cover-img: /assets/img/IMG_3974.png
+cover-img: /assets/img/tryps.png
 ---
 
 I'm a postdoctoral researcher in the Matthews lab, in Edinburgh. I use bioinformatics and molecular techniques to understand the evolution and developmental biology of trypanosomes, mainly _Trypanosoma brucei_.
