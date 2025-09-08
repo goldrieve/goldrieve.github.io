@@ -78,98 +78,100 @@
 %-----------------------------------------------------------
 \begin{multicols}{2}
 \subsection*{Summary}
-\item Bioinformatician with 6+ years experience focussing on Hosts, Pathogens and Global Health projects
-\item Specialist in developing and validating scalable multi-omic pipelines
-\item Currently working on implementing nf-test capacity in ISO certified bovine TB Nextflow pipelines
+\item Bioinformatician (6+ years) specialising in data-driven approaches to disease research and discovery. Skilled in developing, optimising, and validating scalable multi-omic pipelines. Currently focused on implementing nf-test–based CI for ISO-certified Nextflow pipelines, ensuring reproducibility, reliability, and compliance.
 
 \columnbreak
 
-\subsection*{Skills}
-\item \skillbox{Python} \skillbox{R} \skillbox{bash} 
-\item \skillbox{Nextflow} \skillbox{nf-test} \skillbox{GitHub} 
-\item \skillbox{AWS/HPC} \skillbox{GH Actions}
+\subsection*{}
+\item \skillbox{Python} \skillbox{R} \skillbox{bash} \skillbox{Nextflow} \skillbox{nf-test} \skillbox{GitHub} \skillbox{AWS/HPC} \skillbox{GH Actions}
 \end{multicols}
 
 %-----------------------------------------------------------
 \section{Experience}
 
-\begin{joblong}{Bioinformatician | Animal and Plant Health Agency}{2025 - Present}
-\item Developed (btb-forestry) and improved (btb-seq) nf-test CI for ISO-17025 certified Nextflow pipelines used to process sequencing data and perform phylogenetic analysis of bovine TB isolates
-\item Created btb-sub, a nextflow pipeline which automates the submission of routine TB sequencing data to ENA
+\begin{joblong}{Bioinformatician | Animal and Plant Health Agency}{2025-Present}
+\item Reviewed and streamlined in-house pipelines for sequencing QC and phylogenetic analysis of bovine TB isolates
+  \begin{itemize}[leftmargin=2em, itemsep=2pt, label=$\circ$]
+    \item Developed and improved nf-test CI for ISO-17025 certified Nextflow pipelines
+    \item Created btb-sub, a Nextflow pipeline which automates the submission of sequencing data to ENA
+  \end{itemize}
 \end{joblong}
 
-\begin{joblong}{Postdoctoral Research Associate | The University of Edinburgh}{2023 - 2025}
-\item Created vsgseq2, an efficient Nextflow pipeline that processes cDNA amplicon data to anlayse the expression of complex gene families used for antigenic variation (GitHub: vsgseq2)
+\begin{joblong}{Postdoctoral Research Associate | The University of Edinburgh}{2023-2025}
+\item Created vsgseq2, a Nextflow pipeline for analysing population-level antigenic variation in T. brucei\textsuperscript{1}
     \begin{itemize}[leftmargin=2em, itemsep=2pt, label=$\circ$]
-        \item vsgseq2 utilises nf-test based unit/integration testing and Docker to ease distribution
-        \item Utilised vsgseq2 to analyse hundreds of longitudinal in vivo infection samples.
-        \item Generated high-quality genome assemblies from PacBio, ONT and HI-C sequencing to understand the genomic background of expression analysis
+        \item Integrated nf-test unit/integration testing and Docker for reproducible distribution
+        \item Applied vsgseq2 to hundreds of chronic bovine infection samples
+        \item Generated high-quality genome assemblies from PacBio, ONT, and Hi-C data to understand mechanisms of antigenic variation
     \end{itemize}
-\item Developed a real-time diagnostic tool to detect outbreaks of T. brucei in the field using minION-based amplicon sequencing
+\item Developed a MinION-based diagnostic for real-time outbreak detection of T. brucei
     \begin{itemize}[leftmargin=2em, itemsep=2pt, label=$\circ$]
-        \item Created an app which allows submission of data via a GUI
-        \item Performed the wet lab based amplicon generation and sequencing
-        \item Simultaneously supervised two students in wet lab and bioinformatics
+        \item Built a Python based machine learning app for phenotype prediction and outbreak risk
+        \item Performed amplicon generation and ONT sequencing
+        \item Supervised and taught two students in both wet lab and bioinformatics
     \end{itemize}
-\item Delivered team training in HPC use and managed HPC environments, ensuring secure data handling and streamlined analysis workflows
-\item Co-authored the first profile of the Trypanosoma brucei cell cycle with single-cell RNAseq
-\item Council member for the British Society for Parasitology, promoting the adoption of emerging technologies through web interface tutorials
-\item Reviewed articles for journals such as Trends in Parasitology, PLOS NTD, Frontiers in Cellular and Infection Microbiology and Parasitology Research
+\item Delivered HPC training and managed group environments
+\item Co-authored the first profile of the T. brucei cell cycle with single-cell RNAseq\textsuperscript{4}
+\item Serve on the British Society for Parasitology council, promoting adoption of new technologies
+\item Reviewer: Trends in Parasitology, PLOS NTD, Frontiers in Cellular and Infection Microbiology and Parasitology Research
 \end{joblong}
 
-\begin{joblong}{PhD in Hosts, Pathogens, and Global Health | The University of Edinburgh}{2018 - 2023}
-\item Developed a Snakemake pipeline to investigate the phylogenetic association and mechanisms behind life cycle simplification in Trypanosoma brucei. Identified specific mutations which limit a cell's ability to receive oligopeptide-based quorum sensing signals
-\item Confirmed my in silico predictions through genetic manipulations with CRISPR/Cas9
-\item Sequenced and assembled the genome of a neglected parasite remotely using a MinION, emphasising independent research and problem-solving during pandemic-enforced absence from the lab
-\item Presented findings to scientific and general audiences at international conferences
-\item Supervised and mentored a student researcher, teaching them the required skills to assemble a genome and perform large-scale comparative genomics, leading to a co-authored publication
+\begin{joblong}{PhD in Hosts, Pathogens, and Global Health | The University of Edinburgh}{2018-2023}
+\item Built a Snakemake pipeline to investigate life cycle simplification in T. brucei\textsuperscript{3,6}
+\begin{itemize}[leftmargin=2em, itemsep=2pt, label=$\circ$]
+  \item Identified mutations disrupting quorum sensing via analysis of genomic and transcriptomic data 
+  \item Validated predictions through CRISPR/Cas9 genetic manipulation
+\end{itemize}
+\item Sequenced and assembled a parasite genome remotely using MinION during pandemic restrictions\textsuperscript{5}
+\item Presented research at international conferences to scientific and general audiences
+\item Supervised a student in genome assembly and comparative genomics, resulting in a co-authored publication
 \end{joblong}
 
-\begin{joblong}{MSc in Hosts, Pathogens and Global Health | The University of Edinburgh}{2018 - 2019}
-\item Identified the relationship between 100's of bacterial isolates with machine learning and data visualisation in R. 
-\item Created an R-based data mining approach to compare 1,000s of unstructured datasets to identify biomarkers of severe malaria.
+\begin{joblong}{MSc in Hosts, Pathogens and Global Health | The University of Edinburgh}{2018-2019}
+\item Produced high-quality bacterial genome assemblies to investigate isolate relationships\textsuperscript{2}
+\item Developed an R-based data mining pipeline to identify severe malaria biomarkers from unstructured datasets
 \end{joblong}
 
-\begin{joblong}{Research Assistant | Cardiff University}{2013 - 2018}
-\item Utilised machine learning tools (scikit-learn) to classify phylogenetic relationships of transcriptome data.
+\begin{joblong}{Research Assistant | Cardiff University}{2013-2018}
+\item Applied Python-based machine learning to filter contaminated transcriptomic data
 \end{joblong}
 
 %-----------------------------------------------------------
 \section{Education}
 \begin{itemize}[leftmargin=1.2em, itemsep=3pt, label=-]
 \item \begin{tabularx}{\linewidth}{@{}X r@{}}
-PhD in Hosts, Pathogens, and Global Health at University of Edinburgh \textbf{(Ker Memorial Prize)} & 2018 - 2023 \\
+PhD in Hosts, Pathogens, and Global Health at University of Edinburgh \textbf{(Ker Memorial Prize)} & 2018-2023 \\
 \end{tabularx}
 \item \begin{tabularx}{\linewidth}{@{}X r@{}}
-MSc in Hosts, Pathogens and Global Health at University of Edinburgh \textbf{(Merit)} & 2018 - 2019 \\
+MSc in Hosts, Pathogens and Global Health at University of Edinburgh \textbf{(Merit)} & 2018-2019 \\
 \end{tabularx}
 \item \begin{tabularx}{\linewidth}{@{}X r@{}}
-Integrated Master's in Biology (MBiol) at Cardiff University \textbf{(First-class)} & 2013 - 2018 \\
+Integrated Master's in Biology (MBiol) at Cardiff University \textbf{(First-class)} & 2013-2018 \\
 \end{tabularx}
 \end{itemize}
 
 %-----------------------------------------------------------
 \section{Publications}
-\begin{itemize}[leftmargin=1.2em, itemsep=3pt, label=-]
-\item \textbf{Oldrieve G.}, et al. (2025). vsgseq2: an updated pipeline for analysis of the diversity and abundance of population-wide Trypanosoma brucei VSG expression. In Prep.: Wellcome Open Research.
-\item Vancaester E., \textbf{Oldrieve G.}, et al. (2025) Ghosts of symbionts past: The hidden history of the dynamic association between filarial nematodes and their Wolbachia endosymbionts. Accepted: G3.
-\item \textbf{Oldrieve G.}, et al. (2024) Mechanisms of life cycle simplification in African trypanosomes. Nature Communications.
-\item Briggs E., Marques C., \textbf{Oldrieve G.}, et al. (2023). Profiling the Trypanosoma brucei cell cycle using single-cell transcriptomics. eLife.
-\item \textbf{Oldrieve G.}, et al. (2022). The genomic basis of host and vector specificity in non-pathogenic trypanosomatids. Biology Open.
-\item \textbf{Oldrieve G.}, et al. (2021). Monomorphic Trypanozoon: towards reconciling phylogeny and pathologies. Microbial Genomics.
-\end{itemize}
+\begin{enumerate}[leftmargin=1.2em, itemsep=3pt]
+\item \textbf{Oldrieve G.}, et al. (2025). vsgseq2: an updated pipeline for analysis of the diversity and abundance of population-wide Trypanosoma brucei VSG expression. In Prep.: Wellcome Open Research
+\item Vancaester E., \textbf{Oldrieve G.}, et al. (2025) Ghosts of symbionts past: The hidden history of the dynamic association between filarial nematodes and their Wolbachia endosymbionts. Accepted: G3
+\item \textbf{Oldrieve G.}, et al. (2024) Mechanisms of life cycle simplification in African trypanosomes. Nature Communications
+\item Briggs E., Marques C., \textbf{Oldrieve G.}, et al. (2023). Profiling the Trypanosoma brucei cell cycle using single-cell transcriptomics. eLife
+\item \textbf{Oldrieve G.}, et al. (2022). The genomic basis of host and vector specificity in non-pathogenic trypanosomatids. Biology Open
+\item \textbf{Oldrieve G.}, et al. (2021). Monomorphic Trypanozoon: towards reconciling phylogeny and pathologies. Microbial Genomics
+\end{enumerate}
 
 %-----------------------------------------------------------
 \section{Awards}
 \begin{itemize}[leftmargin=1.2em, itemsep=3pt, label=-]
 \item \begin{tabularx}{\linewidth}{@{}X r@{}}
-\textbf{Ker Memorial Prize} for the most outstanding PhD thesis in infectious diseases from across the University of Edinburgh & (2024) \\
+\textbf{Ker Memorial Prize}: Best PhD thesis in infectious diseases, University of Edinburgh & (2024) \\
 \end{tabularx}
 \item \begin{tabularx}{\linewidth}{@{}X r@{}}
-\textbf{Best poster} at the Edinburgh Infectious Diseases symposium & (2020) \\
+\textbf{Best poster}: Edinburgh Infectious Diseases symposium & (2020) \\
 \end{tabularx}
 \item \begin{tabularx}{\linewidth}{@{}X r@{}}
-\textbf{Best performance} Integrated master's in biology & (2018) \\
+\textbf{Best performance}: Integrated master's in biology & (2018) \\
 \end{tabularx}
 \end{itemize}
 
@@ -177,10 +179,10 @@ Integrated Master's in Biology (MBiol) at Cardiff University \textbf{(First-clas
 \section{Interests}
 \begin{itemize}[leftmargin=1.2em, itemsep=3pt, label=-]
 \item \begin{tabularx}{\linewidth}{@{}X r@{}}
-Endurance Events: Ljubljana, Loch Ness and Edinburgh marathon & (2023-Present) \\
+Endurance Events: Perranporth Triathlon and Ljubljana, Loch Ness and Edinburgh marathon & (2023-Present) \\
 \end{tabularx}
 \item \begin{tabularx}{\linewidth}{@{}X r@{}}
-Captain of Lismore RFC: Led a diverse group of over 50 players & (2020-2023) \\
+Captain, Lismore RFC: Led a squad of 50+ players & (2020-2023) \\
 \end{tabularx}
 \end{itemize}
 
