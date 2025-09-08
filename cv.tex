@@ -1,217 +1,183 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
-%
-%	Copyright (c) 2021 Jitin Nair
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
+\documentclass[a4paper,11pt]{article}
 
-%----------------------------------------------------------------------------------------
-%	DOCUMENT DEFINITION
-%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------
+% FONT
+%-----------------------------------------------------------
+\usepackage[default]{helvet} 
+\renewcommand{\familydefault}{\sfdefault}
 
-% article class because we want to fully customize the page and not use a cv template
-\documentclass[a4paper,12pt]{article}
-
-%----------------------------------------------------------------------------------------
-%	FONT
-%----------------------------------------------------------------------------------------
-
-% % fontspec allows you to use TTF/OTF fonts directly
-% \usepackage{fontspec}
-% \defaultfontfeatures{Ligatures=TeX}
-
-% % modified for ShareLaTeX use
-% \setmainfont[
-% SmallCapsFont = Fontin-SmallCaps.otf,
-% BoldFont = Fontin-Bold.otf,
-% ItalicFont = Fontin-Italic.otf
-% ]
-% {Fontin.otf}
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES
-%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------
+% PACKAGES
+%-----------------------------------------------------------
 \usepackage{url}
-\usepackage{parskip} 	
-
-%other packages for formatting
-\RequirePackage{color}
-\RequirePackage{graphicx}
+\usepackage{parskip}
+\usepackage{graphicx}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage[scale=0.9]{geometry}
-
-%tabularx environment
 \usepackage{tabularx}
-
-%for lists within experience section
 \usepackage{enumitem}
-
-% centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
-
-%to prevent spillover of tabular into next pages
-\usepackage{supertabular}
-\usepackage{tabularx}
-\newlength{\fullcollw}
-\setlength{\fullcollw}{0.47\textwidth}
-
-%custom \section
-\usepackage{titlesec}				
+\usepackage{titlesec}
 \usepackage{multicol}
-\usepackage{multirow}
-
-%CV Sections inspired by: 
-%http://stefano.italians.nl/archives/26
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{10pt}{10pt}
-
-%for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
-%Setup hyperref package, and colours for links
-\usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
-
-%for social icons
 \usepackage{fontawesome5}
+\usepackage[unicode]{hyperref}
+\usepackage[most]{tcolorbox}
 
-%debug page outer frames
-%\usepackage{showframe}
+% link styling
+\definecolor{linkcolour}{rgb}{0.0,0.2,0.0}
+\hypersetup{colorlinks, urlcolor=linkcolour, linkcolor=linkcolour}
 
+% job environments
+\newenvironment{joblong}[2]{
+  \begin{tabularx}{\linewidth}{@{}l X r@{}}
+  \textbf{#1} & & #2 \\[2pt]
+  \end{tabularx}
+  \begin{itemize}[leftmargin=1.2em, itemsep=3pt, label=-]
+}{
+  \end{itemize}
+}
 
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    }
-    {
-    }
+\newenvironment{jobshort}[2]{
+  \begin{tabularx}{\linewidth}{@{}l X r@{}}
+  \textbf{#1} & & #2 \\[2pt]
+  \end{tabularx}
+}{}
 
-\newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
+% section style
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
 
+% Define a skill box style
+\newtcbox{\skillbox}[1][]{%
+  on line,
+  colframe=black!40,
+  colback=black!5,
+  boxrule=0.4pt,
+  arc=3pt,
+  boxsep=2pt,
+  left=4pt,
+  right=4pt,
+  top=2pt,
+  bottom=2pt,
+  #1}
 
-
-%----------------------------------------------------------------------------------------
-%	BEGIN DOCUMENT
-%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------
 \begin{document}
+\pagestyle{empty}
 
-% non-numbered pages
-\pagestyle{empty} 
+%-----------------------------------------------------------
+% HEADER
+%-----------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-%	TITLE
-%----------------------------------------------------------------------------------------
+\begin{center}
+    {\Huge \textbf{Guy Oldrieve, PhD}} \\[6pt]
+    \href{mailto:oldrieve2@hotmail.com}{\faEnvelope\ oldrieve2@hotmail.com}  \ $|$ \ 
+    \href{https://github.com/goldrieve}{\faGithub\ goldrieve}  \ $|$ \ 
+    \href{https://linkedin.com/in/guy-oldrieve}{\faLinkedin\ guy-oldrieve}
+    \end{center}
 
-% \begin{tabularx}{\linewidth}{ @{}X X@{} }
-% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
-% \raisebox{-0.05\height}\faGithub\ username \ | \
-% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
-% \end{tabularx}
+%-----------------------------------------------------------
+\begin{multicols}{2}
+\subsection*{Summary}
+Over the past six years, I have applied my passion for bioinformatics to projects focused on Hosts, Pathogens and Global Health. I specialise in developing user-friendly and efficient pipelines to analyse and manage large-scale multi-omic projects.
 
-\begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
-\end{tabularx}
+\columnbreak
 
-%----------------------------------------------------------------------------------------
-% EXPERIENCE SECTIONS
-%----------------------------------------------------------------------------------------
+\subsection*{Skills}
+\skillbox{Python} \skillbox{R} \skillbox{bash} \skillbox{Nextflow} \skillbox{nf-test} \skillbox{GitHub+Actions} \skillbox{AWS/HPC} \skillbox{ML}
+\end{multicols}
 
-%Interests/ Keywords/ Summary
-\section{Summary}
-This CV can also be automatically complied and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+%-----------------------------------------------------------
+\section{Experience}
 
-%Experience
-\section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+\begin{joblong}{Bioinformatician | Animal and Plant Health Agency}{2025 - Present}
+\item Developed (btb-forestry) and improved (btb-seq) nf-test CI capacity for ISO-17025 certified Nextflow pipelines used to process sequencing data and perform phylogenetic analysis of bovine TB isolates
+\item Created btb-sub, a nextflow pipeline which automates the submission of routine TB sequencing data to ENA
 \end{joblong}
-  
-%Projects
-\section{Projects}
 
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
+\begin{joblong}{Postdoctoral Research Associate | The University of Edinburgh}{2023 - 2025}
+\item Created vsgseq2, an efficient Nextflow pipeline that processes cDNA amplicon data to anlayse the expression of complex gene families used for antigenic variation (GitHub: vsgseq2)
+    \begin{itemize}[leftmargin=2em, itemsep=2pt, label=$\circ$]
+        \item vsgseq2 utilises nf-test based unit/integration testing and Docker to ease distribution
+        \item Utilised vsgseq2 to analyse hundreds of longitudinal in vivo infection samples.
+        \item Generated high-quality genome assemblies from PacBio, ONT and HI-C sequencing to understand the genomic background of expression analysis
+    \end{itemize}
+\item Developed a real-time diagnostic tool to detect outbreaks of T. brucei in the field using minION-based amplicon sequencing
+    \begin{itemize}[leftmargin=2em, itemsep=2pt, label=$\circ$]
+        \item Created an app which allows submission of data via a GUI
+        \item Performed the wet lab based amplicon generation and sequencing
+        \item Simultaneously supervised two students in wet lab and bioinformatics
+    \end{itemize}
+\item Delivered team training in HPC use and managed HPC environments, ensuring secure data handling and streamlined analysis workflows
+\item Co-authored the first profile of the Trypanosoma brucei cell cycle with single-cell RNAseq
+\item Council member for the British Society for Parasitology, promoting the adoption of emerging technologies through web interface tutorials
+\item Reviewed articles for journals such as Trends in Parasitology, PLOS NTD, Frontiers in Cellular and Infection Microbiology and Parasitology Research
+\end{joblong}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
+\begin{joblong}{PhD in Hosts, Pathogens, and Global Health | The University of Edinburgh}{2018 - 2023}
+\item Developed a Snakemake pipeline to investigate the phylogenetic association and mechanisms behind life cycle simplification in Trypanosoma brucei. Identified specific mutations which limit a cell's ability to receive oligopeptide-based quorum sensing signals
+\item Confirmed my in silico predictions through genetic manipulations with CRISPR/Cas9
+\item Sequenced and assembled the genome of a neglected parasite remotely using a MinION, emphasising independent research and problem-solving during pandemic-enforced absence from the lab
+\item Presented findings to scientific and general audiences at international conferences
+\item Supervised and mentored a student researcher, teaching them the required skills to assemble a genome and perform large-scale comparative genomics, leading to a co-authored publication
+\end{joblong}
+
+\begin{joblong}{MSc in Hosts, Pathogens and Global Health | The University of Edinburgh}{2018 - 2019}
+\item Identified the relationship between 100's of bacterial isolates with machine learning and data visualisation in R. 
+\item Created an R-based data mining approach to compare 1,000s of unstructured datasets to identify biomarkers of severe malaria.
+\end{joblong}
+
+\begin{joblong}{Research Assistant | Cardiff University}{2013 - 2018}
+\item Utilised machine learning tools (scikit-learn) to classify phylogenetic relationships of transcriptome data.
+\end{joblong}
+
+%-----------------------------------------------------------
 \section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
-
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, label=-]
+\item \begin{tabularx}{\linewidth}{@{}X r@{}}
+PhD in Hosts, Pathogens, and Global Health at University of Edinburgh \textbf{(Ker Memorial Prize)} & 2018 - 2023 \\
 \end{tabularx}
+\item \begin{tabularx}{\linewidth}{@{}X r@{}}
+MSc in Hosts, Pathogens and Global Health at University of Edinburgh \textbf{(Merit)} & 2018 - 2019 \\
+\end{tabularx}
+\item \begin{tabularx}{\linewidth}{@{}X r@{}}
+Integrated Master's in Biology (MBiol) at Cardiff University \textbf{(First-class)} & 2013 - 2018 \\
+\end{tabularx}
+\end{itemize}
 
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------
 \section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, label=-]
+\item \textbf{Oldrieve G.}, et al. (2025). vsgseq2: an updated pipeline for analysis of the diversity and abundance of population-wide Trypanosoma brucei VSG expression. In Prep.: Wellcome Open Research.
+\item Vancaester E., \textbf{Oldrieve G.}, et al. (2025) Ghosts of symbionts past: The hidden history of the dynamic association between filarial nematodes and their Wolbachia endosymbionts. Accepted: G3.
+\item \textbf{Oldrieve G.}, et al. (2024) Mechanisms of life cycle simplification in African trypanosomes. Nature Communications.
+\item Briggs E., Marques C., \textbf{Oldrieve G.}, et al. (2023). Profiling the Trypanosoma brucei cell cycle using single-cell transcriptomics. eLife.
+\item \textbf{Oldrieve G.}, et al. (2022). The genomic basis of host and vector specificity in non-pathogenic trypanosomatids. Biology Open.
+\item \textbf{Oldrieve G.}, et al. (2021). Monomorphic Trypanozoon: towards reconciling phylogeny and pathologies. Microbial Genomics.
+\end{itemize}
 
-%----------------------------------------------------------------------------------------
-%	SKILLS
-%----------------------------------------------------------------------------------------
-\section{Skills}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+%-----------------------------------------------------------
+\section{Awards}
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, label=-]
+\item \begin{tabularx}{\linewidth}{@{}X r@{}}
+\textbf{Ker Memorial Prize} for the most outstanding PhD thesis in infectious diseases from across the University of Edinburgh & (2024) \\
 \end{tabularx}
+\item \begin{tabularx}{\linewidth}{@{}X r@{}}
+\textbf{Best poster} at the Edinburgh Infectious Diseases symposium & (2020) \\
+\end{tabularx}
+\item \begin{tabularx}{\linewidth}{@{}X r@{}}
+\textbf{Best performance} Integrated master's in biology & (2018) \\
+\end{tabularx}
+\end{itemize}
 
-\vfill
-\center{\footnotesize Last updated: \today}
+%-----------------------------------------------------------
+\section{Interests}
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, label=-]
+\item \begin{tabularx}{\linewidth}{@{}X r@{}}
+Endurance Events: Ljubljana, Loch Ness and Edinburgh marathon & (2023-Present) \\
+\end{tabularx}
+\item \begin{tabularx}{\linewidth}{@{}X r@{}}
+Captain of Lismore RFC: Led a diverse group of over 50 players & (2020-2023) \\
+\end{tabularx}
+\end{itemize}
 
 \end{document}
