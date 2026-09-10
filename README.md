@@ -1,1 +1,1 @@
-Personal website. Template from Beautiful Jekyll
+Personal website.
